@@ -1,0 +1,16 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #C4C3B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/** HEADER **/
+header {}
+    
+div img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+    }
