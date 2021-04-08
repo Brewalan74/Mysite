@@ -1,5 +1,5 @@
 * {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     text-decoration: none;
     color: white;
     margin: 0;
@@ -15,49 +15,59 @@ body {
 }
 
 /** HEADER **/
-header {
-    display: block;
+#header-div {
     background-color: #303340;
     border-radius: 0;
     border: 0;
-    margin: 0;
-    height: 175px;
-}   
-div img {
-    width: 8vw;
-    height: 8vw;
-    margin: 20px 15px 30px 20px;
+}  
+div .container {
+max-width: none;
+}
+.logo-img {
+    width: 125px;
+    height: 125px;
+    margin: 15px 0px 15px 3px;
     float: left;
+    vertical-align: middle;
     }
 div h1 {
     margin-top: 40px;
     margin-left: 25px;
-    font-size: 4vw;
     float: left;
 }
 ul {
-    list-style-type: none;
     margin: 0 0 0 0;
     padding: 0;
+    flex-direction: row;
 }
 .li-left {
+    list-style-type: none;
     float: left;
-    margin-right: 1px;
-    margin-bottom: 10px;
-
+    margin-right: 2px;
 }
 .li-right {
+    list-style-type: none;
     float: right;
-    margin-right: 2px;
+    margin-right: 3px;
 }
 #li-home {
     clear: left;
-    margin-left: 2px;
+    margin-left: 3px;
 }
 button {
     background-color: #606260;
     border: 1px solid black;
+    font-size: 1.1em;
 }
 button:hover {
     background-color: #0B0B10;
+}
+
+/*END OF HEADER*/
+
+/* LARGE SCREEN */
+@media (min-width: 1200px) {
+    .container .logo-img {
+        
+    }
 }
