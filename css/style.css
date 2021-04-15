@@ -6,13 +6,16 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    hyphens: none;
 }
 html {
     height: 100%;
 }
 body {
-    position: relative;
-    min-height: 100%;
+    /* position: relative; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     color: #fff;
     background-color: #C4C3B0;
@@ -34,16 +37,17 @@ body {
 }
 
 .logo-img {
-    width: 0;
-    height: 0;
+    width: 125px;
+    height: 125px;
     margin: 25px 0px 25px 50px;
     float: left;
     vertical-align: middle;
     }
 
-div h1 {
+h1 {
     margin-top: 60px;
     margin-left: 50px;
+    margin-bottom: 30px;
     font-size: 2.5em;
     float: left;
 }
@@ -94,11 +98,11 @@ footer {
 }
 .footer-conntainer {
     display: block;
-    max-width: none%;
+    max-width: none;
 }
 .footer-logo-img {
-    width: 0;
-    height: 0;
+    width: 25px;
+    height: 25px;
     margin: 25px 0px 25px 50px;
     float: left;
     vertical-align: middle;
@@ -126,6 +130,7 @@ footer {
     clear: right;
     margin-right: 30px;
 }
+/* END FOOTER */
 
 /* LARGE SCREEN */
 @media (min-width: 1200px) {
@@ -142,6 +147,31 @@ footer {
         margin: 25px 0px 25px 50px;
         float: left;
         vertical-align: middle;
+        }
+    h1 {
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        font-size: 2.5em;
+        float: left;
+        }
+    .button-left {
+        background-color: #606260;
+        border: 1px solid black;
+        font-size: 1.1em;
+        float: left;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        padding: 3px 5px 3px 5px;
+        }
+    .button-right {
+        background-color: #606260;
+        border: 1px solid black;
+        font-size: 1.1em;
+        float: right;
+        margin-right: 5px;
+        margin-bottom: 2px;
+        padding: 3px 5px 3px 5px;
         } 
 }
 
@@ -156,7 +186,7 @@ footer {
         float: left;
         vertical-align: middle; 
     }
-    div h1 {
+    h1 {
         margin-top: 50px;
         margin-left: 40px;
         float: left;
@@ -191,7 +221,6 @@ footer {
         } 
 }
     /* End Footer */
-}
 
 /* SMALL SCREEN */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -203,7 +232,7 @@ footer {
         float: left;
         vertical-align: middle; 
     }
-    div h1 {
+    h1 {
         margin-top: 40px;
         margin-left: 30px;
         float: left;
@@ -230,9 +259,8 @@ footer {
     /* End Header */
     /* Start Footer */
     .footer-logo-img {
-        visibility: hidden;
-        width: 0;
-        height: 0;
+        width: 50px;
+        height: 50px;
         margin: 25px 0px 25px 0px;
         float: left;
         vertical-align: middle;
@@ -255,6 +283,7 @@ footer {
     .h2-footer2 {
         margin-top: 50px;
         margin-bottom: 25px;
+    }
     /* End Footer */
 }
 
@@ -264,15 +293,18 @@ footer {
    .logo-img {
         width: 75px;
         height: 75px;
-        margin: 10px 0px 10px 15px;
-        float: left;
+        margin: 10px 15px 10px 0px;
+        float: right;
         vertical-align: middle; 
     }
-    div h1 {
+    h1 {
         margin-top: 30px;
-        margin-left: 20px;
-        float: left;
-        font-size: 1.6em;
+        margin-right: 20px;
+        float: right;
+        font-size: 1.5em;
+    }
+    li{
+        text-align: center;
     }
     .button-left {
         background-color: #606260;
@@ -287,7 +319,7 @@ footer {
         background-color: #606260;
         border: 1px solid black;
         font-size: 0.8em;
-        float: right;
+        float: left;
         margin-right: 5px;
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
@@ -295,9 +327,8 @@ footer {
     /* End Header */ 
     /* Start Footer */
     .footer-logo-img {
-        visibility: hidden;
-        width: 0;
-        height: 0;
+        width: 25px;
+        height: 25px;
         margin: 25px 0px 25px 0px;
         float: left;
         vertical-align: middle;
@@ -330,10 +361,10 @@ footer {
         visibility: hidden;
         width: 0;
         height: 0;
-        margin: 10px 0px 10px 15px;
+        margin: 0;
         vertical-align: middle;
     }
-    div h1 {
+    h1 {
         margin-top: 25px;
         margin-bottom: 25px;
         margin-left: 0;
@@ -345,28 +376,28 @@ footer {
         clear: left;
         margin-left: 0;
     }
+    .li {
+        text-align: center;
+    }
     .button-left {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.9em;
+        font-size: 1em;
         float: none;
         width: 50%;
-        border-radius: 4px;
-        -webkit-box-align: center;
-        margin-right: 0;
+        margin-right: 2px;
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
     }
     .button-right {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.9em;
+        font-size: 1em;
         float: none;
         width: 50%;
-        border-radius: 4px;
-        margin-right: 0;
-        margin-bottom: 2px;
+        margin-right: 2px;
+        margin-bottom: 5px;
         padding: 3px 5px 3px 5px;
     }
-/* End Header */ 
 }
+/*End Header*/
