@@ -137,27 +137,28 @@ footer {
 
 /* LARGE SCREEN */
 @media (min-width: 1200px) {
+    /* Start Header */
     .logo-img {
         width: 125px;
         height: 125px;
         margin: 25px 0px 25px 50px;
         float: left;
         vertical-align: middle;
-        }
+    }
     .footer-logo-img {
         width: 85px;
         height: 85px;
         margin: 25px 0px 25px 50px;
         float: left;
         vertical-align: middle;
-        }
+    }
     h1 {
         margin-top: 60px;
         margin-left: 50px;
         margin-bottom: 30px;
         font-size: 2.5em;
         float: left;
-        }
+    }
     .button-left {
         background-color: #606260;
         border: 1px solid black;
@@ -166,7 +167,7 @@ footer {
         margin-right: 2px;
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
-        }
+    }
     .button-right {
         background-color: #606260;
         border: 1px solid black;
@@ -175,7 +176,14 @@ footer {
         margin-right: 5px;
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
-        } 
+    } 
+        /* End Header */
+
+        /* Start Home Main */
+    h2 {
+
+    }
+        /* End Home Main */
 }
 
 
@@ -262,15 +270,15 @@ footer {
     /* End Header */
     /* Start Footer */
     .footer-logo-img {
-        width: 50px;
-        height: 50px;
-        margin: 25px 0px 25px 0px;
+        width: 75px;
+        height: 75px;
+        margin: 25px 0px 25px 15px;
         float: left;
         vertical-align: middle;
         } 
     .footer-left {
         float: left;
-        /* font-size: 1.2em; */
+        font-size: 1em;
         }
     .footer-right {
         position: relative;
@@ -330,30 +338,29 @@ footer {
     /* End Header */ 
     /* Start Footer */
     .footer-logo-img {
-        width: 25px;
-        height: 25px;
-        margin: 25px 0px 25px 0px;
-        float: left;
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 15px 0px 0px 0px;
+        float: none;
         vertical-align: middle;
         } 
     .footer-left {
-        float: left;
-        /* font-size: 1.2em; */
+        float: none;
+        text-align: center;
+        font-size: 0.9em;
         }
     .footer-right {
-        position: relative;
-        float: right;
-        margin-top: 25px;
-        margin-right: 25px;
+        float: none;
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+        font-size: 0.8em;
         }
     .h2-footer1 {
-        margin-top: 35px;
-        margin-left: 25px;
-        margin-bottom: 0px;
+        margin: 0px 0px 0px 0px;
         }
     .h2-footer2 {
-        margin-top: 50px;
-        margin-bottom: 25px;
+        margin: 0px 0px 40px 0px;
     /* End Footer */
 }
 
@@ -371,7 +378,7 @@ footer {
         margin-top: 25px;
         margin-bottom: 25px;
         margin-left: 0;
-        font-size: 1.5em;
+        font-size: 1.3em;
         text-align: center;
         float: none;
     }
@@ -403,4 +410,29 @@ footer {
         padding: 3px 5px 3px 5px;
     }
     /*End Header*/
+    /* Start Footer */
+    .footer-logo-img {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 15px 0px 0px 0px;
+        float: none;
+        vertical-align: middle;
+        } 
+    .footer-left {
+        float: none;
+        text-align: center;
+        font-size: 0.9em;
+        }
+    .footer-right {
+        float: none;
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+        }
+        .h2-footer1 {
+            margin: 0px 0px 0px 0px;
+            }
+        .h2-footer2 {
+            margin: 0px 0px 40px 0px;
+    /* End Footer */
 }
