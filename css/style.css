@@ -89,18 +89,9 @@ button:hover {
 }
 /* END HEADER */
 
-/* START HOME MAIN */
-h2 {
-    text-align: center;
-}
-.home-pic {
-    width: 100%;
-}
-/* END HOME MAIN */
-
 /* START FOOTER */
 footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     right: 0;
     left: 0;
@@ -129,6 +120,7 @@ footer {
     margin-top: 25px;
     margin-right: 25px;
 }
+
 .h2-footer1 {
     margin-top: 35px;
     margin-left: 25px;
@@ -138,11 +130,42 @@ footer {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+footer li {
+    display: inline;
+}
 .li-end {
     clear: right;
     margin-right: 30px;
 }
+hr {
+    display:inline-block;
+    width: 100%;
+}
+.center-ul {
+    text-align: center;
+}
+.footer-social {
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+}
 /* END FOOTER */
+
+/* START HOME MAIN */
+main h2 {
+    text-align: center;
+    color: #0B0B10;
+    margin: 25px 0px 25px 0px;
+    font-size: 2em;
+}
+.home-pic {
+    width: 100%;
+}
+/* END HOME MAIN */
+
 
 /* LARGE SCREEN */
 @media (min-width: 1200px) {
@@ -446,5 +469,6 @@ footer {
             }
         .h2-footer2 {
             margin: 0px 0px 40px 0px;
+        }
     /* End Footer */
 }
