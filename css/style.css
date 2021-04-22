@@ -175,6 +175,13 @@ main h2 {
 .home-pic {
     width: 100%;
 }
+main h3 {
+    text-align: center;
+    color: #606260;
+    margin: 25px 0px 25px 0px;
+    font-size: 1.8em;
+    text-shadow: 1px 2px #303340;
+}
 /* END HOME MAIN */
 
 
@@ -223,11 +230,14 @@ main h2 {
         /* End Header */
 
         /* Start Home Main */
-    h2 {
+    main h2 {
         text-align: center;
     }
     .home-pic {
         max-width: none;
+    }
+    main h3 {
+        text-align: center;
     }
         /* End Home Main */
 }
@@ -268,6 +278,16 @@ main h2 {
         padding: 3px 5px 3px 5px;
     }
     /* End Header */
+
+    /* Start Home Main */
+    main h2 {
+        text-align: center;
+    }
+    .home-pic {
+        max-width: none;
+    }
+    /* End Home Main */
+
     /* Start Footer */
     .footer-logo-img {
         width: 85px;
@@ -314,6 +334,19 @@ main h2 {
         padding: 3px 5px 3px 5px;
     }
     /* End Header */
+
+    /* Start Home Main */
+    main h2 {
+        font-size: 1.8em;
+    }
+    .home-pic {
+        max-width: none;
+    }
+    main h3 {
+        font-size: 1.6em;
+    }
+    /* End Home Main */
+
     /* Start Footer */
     .footer-logo-img {
         width: 75px;
@@ -388,6 +421,19 @@ main h2 {
         padding: 3px 5px 3px 5px;
     }
     /* End Header */ 
+
+    /* Start Home Main */
+    main h2 {
+        font-size: 1.4em;
+    }
+    .home-pic {
+        max-width: none;
+    }
+    main h3 {
+        font-size: 1.2em;
+    }
+    /* End Home Main */
+
     /* Start Footer */
     .footer-logo-img {
         width: 25px;
@@ -474,6 +520,19 @@ main h2 {
         padding: 3px 5px 3px 5px;
     }
     /*End Header*/
+
+    /* Start Home Main */
+    main h2 {
+        font-size: 1.2em;
+    }
+    .home-pic {
+        max-width: none;
+    }
+    main h3 {
+        font-size: 1em;
+    }
+    /* End Home Main */
+
     /* Start Footer */
     .footer-logo-img {
         visibility: hidden;
