@@ -86,6 +86,7 @@ ul {
 
 button:hover {
     background-color: #0B0B10;
+    box-shadow: 5px 5px 5px #0B0B10;
 }
 /* END HEADER */
 
@@ -114,13 +115,22 @@ footer {
     float: left;
     /* font-size: 1em; */
 }
-.footer-right {
+.footer-right1 {
     position: relative;
     float: right;
     margin-top: 25px;
     margin-right: 25px;
 }
-
+.footer-right2 {
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+footer a:hover {
+    color: #C4C3B0;
+    text-decoration: underline;
+}
 .h2-footer1 {
     margin-top: 35px;
     margin-left: 25px;
@@ -160,6 +170,7 @@ main h2 {
     color: #0B0B10;
     margin: 25px 0px 25px 0px;
     font-size: 2em;
+    text-shadow: 1px 2px #303340;
 }
 .home-pic {
     width: 100%;
@@ -315,17 +326,23 @@ main h2 {
         float: left;
         font-size: 1em;
         }
-    .footer-right {
+    .footer-right1 {
         position: relative;
         float: right;
         margin-top: 25px;
         margin-right: 25px;
-        }
+    }
+    .footer-right2 {
+        position: relative;
+        float: right;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
     .h2-footer1 {
         margin-top: 35px;
         margin-left: 25px;
         margin-bottom: 0px;
-        }
+    }
     .h2-footer2 {
         margin-top: 50px;
         margin-bottom: 25px;
@@ -373,29 +390,41 @@ main h2 {
     /* End Header */ 
     /* Start Footer */
     .footer-logo-img {
-        visibility: hidden;
-        width: 0px;
-        height: 0px;
-        margin: 15px 0px 0px 0px;
+        width: 25px;
+        height: 25px;
+        margin: 10px 0px 10px 0px;
         float: none;
-        vertical-align: middle;
-        } 
+    } 
+    .div-img {
+        text-align: center;
+    }
     .footer-left {
         float: none;
         text-align: center;
         font-size: 0.9em;
-        }
-    .footer-right {
+    }
+    .footer-right1 {
         float: none;
         text-align: center;
-        margin: 0px 0px 15px 0px;
+        margin: 0;
         font-size: 0.8em;
-        }
+    }
+    .footer-right2 {
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0px 0px 5px 0px;
+        font-size: 0.8em;
+    }
+    .li-end {
+        clear: none;
+    }
     .h2-footer1 {
-        margin: 0px 0px 0px 0px;
-        }
+        margin: 0;
+    }
     .h2-footer2 {
-        margin: 0px 0px 40px 0px;
+        margin: 0px 0px 25px 0px;
+    }
     /* End Footer */
 }
 
@@ -453,22 +482,34 @@ main h2 {
         margin: 15px 0px 0px 0px;
         float: none;
         vertical-align: middle;
-        } 
+    } 
     .footer-left {
         float: none;
         text-align: center;
         font-size: 0.9em;
-        }
-    .footer-right {
+    }
+    .footer-right1 {
         float: none;
         text-align: center;
-        margin: 0px 0px 15px 0px;
-        }
-        .h2-footer1 {
-            margin: 0px 0px 0px 0px;
-            }
-        .h2-footer2 {
-            margin: 0px 0px 40px 0px;
-        }
+        margin: 0;
+        font-size: 0.8em;
+    }
+    .footer-right2 {
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0px 0px 5px 0px;
+        font-size: 0.8em;
+    }
+    .li-end {
+        clear: none;
+        margin-right: 0px;
+    }
+    .h2-footer1 {
+        margin: 0px 0px 0px 0px;
+    }
+    .h2-footer2 {
+        margin: 0px 0px 25px 0px;
+    }
     /* End Footer */
 }
