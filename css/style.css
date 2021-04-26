@@ -6,7 +6,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    hyphens: none;
+    /* hyphens: none; */
 }
 html {
     height: 100%;
@@ -182,12 +182,34 @@ main h3 {
     font-size: 1.8em;
     text-shadow: 1px 2px #303340;
 }
+.row {
+    width: 100%;
+}
+.home-menu {
+    border: 1px solid black;
+    width: 90%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: white;
+}
+h4 {
+    color: #0B0B10;
+    text-align: center;
+}
+.para-home-menu {
+    color: #0B0B10;
+    text-align: justify;
+    hyphens: none;
+}
+
 /* END HOME MAIN */
 
 
 /* LARGE SCREEN */
 @media (min-width: 1200px) {
-    /* Start Header */
+    /* Start @media Header */
     .logo-img {
         width: 125px;
         height: 125px;
@@ -227,9 +249,9 @@ main h3 {
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
     } 
-        /* End Header */
+        /* End @media Header */
 
-        /* Start Home Main */
+        /* Start @media Home Main */
     main h2 {
         text-align: center;
     }
@@ -239,13 +261,54 @@ main h3 {
     main h3 {
         text-align: center;
     }
-        /* End Home Main */
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+    .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+        border: 1px solid #C4C3B0;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+        /* End @media Home Main */
 }
 
 
 /* MEDIUM SCREEN */
 @media (min-width: 992px) and (max-width:1199px) {
-    /* Start Header */
+    /* Start @media Header */
     .logo-img {
         width: 110px;
         height: 110px;
@@ -277,18 +340,68 @@ main h3 {
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
     }
-    /* End Header */
+    /* End @media Header */
 
-    /* Start Home Main */
+    /* Start @media Home Main */
     main h2 {
         text-align: center;
     }
     .home-pic {
         max-width: none;
     }
-    /* End Home Main */
+    .home-menu {
+        border: 1px solid black;
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        background-color: white;
+    }
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+    .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+        border: 1px solid #C4C3B0;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    /* End @media Home Main */
 
-    /* Start Footer */
+    /* Start @media Footer */
     .footer-logo-img {
         width: 85px;
         height: 85px;
@@ -297,11 +410,11 @@ main h3 {
         vertical-align: middle;
         } 
 }
-    /* End Footer */
+    /* End @media Footer */
 
 /* SMALL SCREEN */
 @media (min-width: 768px) and (max-width: 991px) {
-     /* Header */
+     /* Start @media Header */
      .logo-img {
         width: 95px;
         height: 95px;
@@ -333,9 +446,9 @@ main h3 {
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
     }
-    /* End Header */
+    /* End @media Header */
 
-    /* Start Home Main */
+    /* Start @media Home Main */
     main h2 {
         font-size: 1.8em;
     }
@@ -345,9 +458,59 @@ main h3 {
     main h3 {
         font-size: 1.6em;
     }
-    /* End Home Main */
+    .home-menu {
+        border: 1px solid black;
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        background-color: white;
+    }
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+    .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+        border: 1px solid #C4C3B0;
+    }
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    /* End @media Home Main */
 
-    /* Start Footer */
+    /* Start @media Footer */
     .footer-logo-img {
         width: 75px;
         height: 75px;
@@ -380,12 +543,12 @@ main h3 {
         margin-top: 50px;
         margin-bottom: 25px;
     }
-    /* End Footer */
+    /* End @media Footer */
 }
 
 /* EXTRA SMALL SCREEN */
 @media (max-width: 767px) {
-   /* Header */
+   /* Start @media Header */
    .logo-img {
         width: 75px;
         height: 75px;
@@ -420,9 +583,9 @@ main h3 {
         margin-bottom: 2px;
         padding: 3px 5px 3px 5px;
     }
-    /* End Header */ 
+    /* End @media Header */ 
 
-    /* Start Home Main */
+    /* Start @media Home Main */
     main h2 {
         font-size: 1.4em;
     }
@@ -432,9 +595,59 @@ main h3 {
     main h3 {
         font-size: 1.2em;
     }
-    /* End Home Main */
+    .home-menu {
+        border: 1px solid black;
+        width: 90%;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        background-color: white;
+    }
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
+    .col-xs-10, .col-xs-11, .col-xs-12 {
+        float: left;
+        border: 1px solid #C4C3B0;
+    }
+    .col-xs-1 {
+        width: 8.33%;
+    }
+    .col-xs-2 {
+        width: 16.66%;
+    }
+    .col-xs-3 {
+        width: 25%;
+    }
+    .col-xs-4 {
+        width: 33.33%;
+    }
+    .col-xs-5 {
+        width: 41.66%;
+    }
+    .col-xs-6 {
+        width: 50%;
+    }
+    .col-xs-7 {
+        width: 58.33%;
+    }
+    .col-xs-8 {
+        width: 66.66%;
+    }
+    .col-xs-9 {
+        width: 74.99%;
+    }
+    .col-xs-10 {
+        width: 83.33%;
+    }
+    .col-xs-11 {
+        width: 91.66%;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+    /* End @media Home Main */
 
-    /* Start Footer */
+    /* Start @media Footer */
     .footer-logo-img {
         width: 25px;
         height: 25px;
@@ -471,12 +684,12 @@ main h3 {
     .h2-footer2 {
         margin: 0px 0px 25px 0px;
     }
-    /* End Footer */
+    /* End @media Footer */
 }
 
 /* SUPER EXTRA SMALL SCREEN */
 @media (max-width: 479px) {
-    /* Header */
+    /* Start @media Header */
    .logo-img {
         visibility: hidden;
         width: 0;
@@ -519,9 +732,9 @@ main h3 {
         margin-bottom: 5px;
         padding: 3px 5px 3px 5px;
     }
-    /*End Header*/
+    /*End @media Header*/
 
-    /* Start Home Main */
+    /* Start @media Home Main */
     main h2 {
         font-size: 1.2em;
     }
@@ -531,9 +744,10 @@ main h3 {
     main h3 {
         font-size: 1em;
     }
-    /* End Home Main */
+    
+    /* End @media Home Main */
 
-    /* Start Footer */
+    /* Start @media Footer */
     .footer-logo-img {
         visibility: hidden;
         width: 0px;
@@ -570,5 +784,5 @@ main h3 {
     .h2-footer2 {
         margin: 0px 0px 25px 0px;
     }
-    /* End Footer */
+    /* End @media Footer */
 }
