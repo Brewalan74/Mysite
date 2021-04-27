@@ -25,6 +25,9 @@ body {
 /* END GENERAL */
 
 /** START HEADER **/
+/* header {
+    display: block;
+} */
 #header-div {
     background-color: #303340;
     border-radius: 0;
@@ -192,20 +195,33 @@ main h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    background-color: white;
+    background-color: #303340;
 }
 h4 {
-    color: #0B0B10;
+    color: #C4C3B0;
     text-align: center;
 }
 .para-home-menu {
-    color: #0B0B10;
     text-align: justify;
     hyphens: none;
 }
 
 /* END HOME MAIN */
 
+/* START OTHER MAIN */
+.para-year {
+    font-size: 18px;
+    color: #303340;
+    margin: 25px 0px 5px 55px;
+    font-weight: bold;
+}
+.para {
+    color: black;
+    text-align: justify;
+    margin: 0px 50px 20px 50px;
+    hyphens: none;
+}
+/* END OTHER MAIN */
 
 /* LARGE SCREEN */
 @media (min-width: 1200px) {
@@ -356,7 +372,7 @@ h4 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
-        background-color: white;
+        background-color: #303340;
     }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
     .col-md-10, .col-md-11, .col-md-12 {
@@ -465,7 +481,7 @@ h4 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
-        background-color: white;
+        background-color: #303340;
     }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
     .col-sm-10, .col-sm-11, .col-sm-12 {
@@ -602,7 +618,7 @@ h4 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
-        background-color: white;
+        background-color: #303340;
     }
     .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
     .col-xs-10, .col-xs-11, .col-xs-12 {
