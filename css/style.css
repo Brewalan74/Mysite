@@ -212,14 +212,32 @@ h4 {
 .para-year {
     font-size: 18px;
     color: #303340;
-    margin: 25px 0px 5px 55px;
+    margin: 25px 0px 5px 50px;
     font-weight: bold;
 }
 .para {
     color: black;
     text-align: justify;
-    margin: 0px 50px 20px 50px;
+    margin: 5px 50px 20px 50px;
     hyphens: none;
+}
+.para-place {
+    font-size: 17px;
+    font-style: italic;
+    text-align: justify;
+    color: black;
+    margin: 5px 50px 0px 50px;
+}
+.para-port {
+    font-size: 17px;
+    font-style: italic;
+    text-align: justify;
+    color: black;
+    margin: 5px 50px 0px 50px;
+}
+span a:hover {
+    color: #606260;
+    text-decoration: underline;
 }
 /* END OTHER MAIN */
 
@@ -760,7 +778,10 @@ h4 {
     main h3 {
         font-size: 1em;
     }
-    
+    .para-place .para-port {
+        text-align: justify;
+        margin: 5px 50px 0px 50px;
+    }
     /* End @media Home Main */
 
     /* Start @media Footer */
