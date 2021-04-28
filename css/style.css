@@ -191,7 +191,7 @@ main h3 {
 .home-menu {
     border: 1px solid black;
     width: 90%;
-    height: 250px;
+    height: 325px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
@@ -205,7 +205,26 @@ h4 {
     text-align: justify;
     hyphens: none;
 }
-
+h6 {
+    text-align: justify;
+    font-size: 1em;
+    color: #0B0B10;
+    margin: 0px 100px 0px 100px;
+}
+h6 p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #0B0B10;
+    margin: 5px 100px 0px 100px;
+}
+.quote {
+    text-align: center;
+    font-size: 1em;
+    color: #0B0B10;
+    font-weight: bold;
+    margin: 25px 0px 25px 0px;
+}
 /* END HOME MAIN */
 
 /* START OTHER MAIN */
@@ -218,7 +237,7 @@ h4 {
 .para {
     color: black;
     text-align: justify;
-    margin: 5px 50px 20px 50px;
+    margin: 2px 50px 20px 50px;
     hyphens: none;
 }
 .para-place {
@@ -226,14 +245,14 @@ h4 {
     font-style: italic;
     text-align: justify;
     color: black;
-    margin: 5px 50px 0px 50px;
+    margin: 8px 50px 0px 50px;
 }
 .para-port {
     font-size: 17px;
     font-style: italic;
     text-align: justify;
     color: black;
-    margin: 5px 50px 0px 50px;
+    margin: 8px 50px 0px 50px;
 }
 span a:hover {
     color: #606260;
@@ -392,6 +411,12 @@ span a:hover {
         margin-bottom: 25px;
         background-color: #303340;
     }
+    h6 {
+        text-align: justify;
+        font-size: 1em;
+        color: #0B0B10;
+        margin: 0px 75px 0px 75px;
+    }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
     .col-md-10, .col-md-11, .col-md-12 {
         float: left;
@@ -495,11 +520,17 @@ span a:hover {
     .home-menu {
         border: 1px solid black;
         width: 90%;
-        height: 200px;
+        height: 250px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
         background-color: #303340;
+    }
+    h6 {
+        text-align: justify;
+        font-size: 1em;
+        color: #0B0B10;
+        margin: 0px 75px 0px 75px;
     }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
     .col-sm-10, .col-sm-11, .col-sm-12 {
@@ -632,11 +663,24 @@ span a:hover {
     .home-menu {
         border: 1px solid black;
         width: 90%;
-        height: 160px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
         background-color: #303340;
+    }
+    h6 {
+        text-align: justify;
+        font-size: 1em;
+        color: #0B0B10;
+        margin: 0px 75px 0px 75px;
+    }
+    h6 p {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        color: #0B0B10;
+        margin: 5px 50px 0px 50px;
     }
     .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
     .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -780,6 +824,19 @@ span a:hover {
     }
     .para-place .para-port {
         text-align: justify;
+        margin: 5px 50px 0px 50px;
+    }
+    h6 {
+        text-align: justify;
+        font-size: 1em;
+        color: #0B0B10;
+        margin: 0px 50px 0px 50px;
+    }
+    h6 p {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        color: #0B0B10;
         margin: 5px 50px 0px 50px;
     }
     /* End @media Home Main */
