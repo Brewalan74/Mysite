@@ -71,7 +71,7 @@ ul {
 .button-left {
     background-color: #606260;
     border: 1px solid black;
-    font-size: 1.1em;
+    font-size: 1.4em;
     float: left;
     margin-right: 2px;
     margin-bottom: 2px;
@@ -80,7 +80,7 @@ ul {
 .button-right {
     background-color: #606260;
     border: 1px solid black;
-    font-size: 1.1em;
+    font-size: 1.4em;
     float: right;
     margin-right: 5px;
     margin-bottom: 2px;
@@ -240,6 +240,9 @@ h6 p {
     margin: 2px 50px 20px 50px;
     hyphens: none;
 }
+.para a {
+    color: #303340;
+}
 .para-place {
     font-size: 17px;
     font-style: italic;
@@ -257,6 +260,10 @@ h6 p {
 span a:hover {
     color: #606260;
     text-decoration: underline;
+}
+p a:hover {
+    color: #606260;
+    text-decoration: underline; 
 }
 /* END OTHER MAIN */
 
@@ -283,24 +290,6 @@ span a:hover {
         margin-bottom: 30px;
         font-size: 2.5em;
         float: left;
-    }
-    .button-left {
-        background-color: #606260;
-        border: 1px solid black;
-        font-size: 1.1em;
-        float: left;
-        margin-right: 2px;
-        margin-bottom: 2px;
-        padding: 3px 5px 3px 5px;
-    }
-    .button-right {
-        background-color: #606260;
-        border: 1px solid black;
-        font-size: 1.1em;
-        float: right;
-        margin-right: 5px;
-        margin-bottom: 2px;
-        padding: 3px 5px 3px 5px;
     } 
         /* End @media Header */
 
@@ -378,7 +367,7 @@ span a:hover {
     .button-left {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 1em;
+        font-size: 1.3em;
         float: left;
         margin-right: 2px;
         margin-bottom: 2px;
@@ -387,7 +376,7 @@ span a:hover {
     .button-right {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 1em;
+        font-size: 1.3em;
         float: right;
         margin-right: 5px;
         margin-bottom: 2px;
@@ -490,7 +479,7 @@ span a:hover {
     .button-left {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.9em;
+        font-size: 1.1em;
         float: left;
         margin-right: 2px;
         margin-bottom: 2px;
@@ -499,7 +488,7 @@ span a:hover {
     .button-right {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.9em;
+        font-size: 1.1em;
         float: right;
         margin-right: 5px;
         margin-bottom: 2px;
@@ -633,7 +622,7 @@ span a:hover {
     .button-left {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.8em;
+        font-size: 0.9em;
         float: left;
         margin-right: 2px;
         margin-bottom: 2px;
@@ -642,7 +631,7 @@ span a:hover {
     .button-right {
         background-color: #606260;
         border: 1px solid black;
-        font-size: 0.8em;
+        font-size: 0.9em;
         float: left;
         margin-right: 5px;
         margin-bottom: 2px;
