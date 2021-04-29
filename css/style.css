@@ -231,25 +231,35 @@ h6 p {
 .para-year {
     font-size: 18px;
     color: #303340;
-    margin: 25px 0px 5px 50px;
+    margin: 25px 0px 5px 75px;
     font-weight: bold;
-}
-.para {
-    color: black;
-    text-align: justify;
-    margin: 2px 50px 20px 50px;
-    hyphens: none;
-}
-.para a {
-    color: #303340;
 }
 .para-place {
     font-size: 17px;
     font-style: italic;
     text-align: justify;
     color: black;
-    margin: 8px 50px 0px 50px;
+    margin: 8px 50px 0px 75px;
 }
+.para-title {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin: 6px 50px 0px 75px;
+}
+.para {
+    color: black;
+    text-align: justify;
+    margin: 5px 50px 0px 50px;
+    hyphens: none;
+}
+.last-para {
+    margin-bottom: 25px;
+}
+.para a {
+    color: #303340;
+}
+
 .para-port {
     font-size: 17px;
     font-style: italic;
@@ -265,6 +275,7 @@ p a:hover {
     color: #606260;
     text-decoration: underline; 
 }
+
 /* END OTHER MAIN */
 
 /* LARGE SCREEN */
