@@ -259,6 +259,7 @@ h6 p {
 }
 .para a {
     color: #303340;
+    text-decoration: darkblue underline;
 }
 
 .para-port {
