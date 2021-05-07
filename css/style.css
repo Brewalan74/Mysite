@@ -194,7 +194,7 @@ main h3 {
     height: 325px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     background-color: #303340;
 }
 h4 {
@@ -218,12 +218,14 @@ h6 p {
     color: #0B0B10;
     margin: 5px 100px 0px 100px;
 }
-.quote {
+#quote {
+    padding: 2rem;
+    margin-top: 500px;
     text-align: center;
     font-size: 1em;
     color: #0B0B10;
     font-weight: bold;
-    margin: 25px 15px 25px 15px;
+    margin: 25px 15px 20px 15px;
 }
 /* END HOME MAIN */
 
