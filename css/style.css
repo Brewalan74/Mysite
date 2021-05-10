@@ -39,11 +39,29 @@ body {
     width: 100%;
 }
 
+.container-hire-me {
+    display: block;
+    width: 100%;
+}
+
 .logo-img {
     width: 125px;
     height: 125px;
     margin: 25px 0px 25px 50px;
     float: left;
+    vertical-align: middle;
+    }
+.logo-hire-me {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
     vertical-align: middle;
     }
 
@@ -285,6 +303,51 @@ p a:hover {
     color: #606260;
     text-decoration: underline; 
 }
+.form {
+    margin: 25px 50px 25px 50px;
+}
+#fname {
+    color: black;
+    width: 95%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#lname {
+    color: black;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#email {
+    color: black;
+    width: 95%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#phone {
+    color: black;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#label-rigth {
+    margin-left: 5%;
+}
+#form-msg {
+    color: black;
+    width: 100%;
+}
+#submit {
+    color: black;
+    width: 150px;
+    padding: 5px;
+}
+#submit:hover {
+    background-color: #303340;
+    color: #C4C3B0;
+}
 
 /* END OTHER MAIN */
 
@@ -379,6 +442,19 @@ p a:hover {
         float: left;
         vertical-align: middle; 
     }
+    .logo-hire-me {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 110px;
+        height: 110px;
+        text-align: center;
+        margin-top: 35px;
+        margin-right: auto;
+        margin-bottom: 35px;
+        margin-left: auto;
+        vertical-align: middle;
+        }
     h1 {
         margin-top: 50px;
         margin-left: 40px;
@@ -491,6 +567,19 @@ p a:hover {
         float: left;
         vertical-align: middle; 
     }
+    .logo-hire-me {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 95px;
+        height: 95px;
+        text-align: center;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto;
+        vertical-align: middle;
+        }
     h1 {
         margin-top: 40px;
         margin-left: 30px;
@@ -631,6 +720,19 @@ p a:hover {
         float: right;
         vertical-align: middle; 
     }
+    .logo-hire-me {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        margin-top: 25px;
+        margin-right: auto;
+        margin-bottom: 25px;
+        margin-left: auto;
+        vertical-align: middle;
+        }
     h1 {
         margin-top: 30px;
         margin-right: 20px;
@@ -698,6 +800,27 @@ p a:hover {
         color: #0B0B10;
         font-weight: bold;
         margin: 25px 15px 25px 15px;
+    }
+    #fname {
+        color: black;
+        width: 100%;
+    }
+    #lname {
+        color: black;
+        width:100%;
+        margin-left: 0;
+    }
+    #email {
+        color: black;
+        width: 100%;
+    }
+    #phone {
+        color: black;
+        width: 100%;
+        margin-left: 0;
+    }
+    #label-rigth {
+        margin-left: 0;
     }
     .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
     .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -792,6 +915,19 @@ p a:hover {
         margin: 0;
         vertical-align: middle;
     }
+    .logo-hire-me {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+        vertical-align: middle;
+        }
     h1 {
         margin-top: 25px;
         margin-bottom: 25px;
@@ -862,6 +998,27 @@ p a:hover {
         color: #0B0B10;
         font-weight: bold;
         margin: 25px 15px 25px 15px;
+    }
+    #fname {
+        color: black;
+        width: 100%;
+    }
+    #lname {
+        color: black;
+        width:100%;
+        margin-left: 0;
+    }
+    #email {
+        color: black;
+        width: 100%;
+    }
+    #phone {
+        color: black;
+        width: 100%;
+        margin-left: 0;
+    }
+    #label-rigth {
+        margin-left: 0;
     }
     /* End @media Home Main */
 

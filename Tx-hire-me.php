@@ -25,29 +25,8 @@
     <div>
         <h2>Hire me, you wont have any regret!</h2>
     </div>
-    <div class="form">
-        <form action="" method="POST">
-            <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="First name">
-            </span>
-            <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <label for="lname" id="label-rigth">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Last name">
-            </span>
-            <br>
-            <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <label for="email">Enter your email:</label><br>
-            <input type="text" id="email" name="email" value="email">
-            </span>
-            <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <label for="phone" id="label-rigth">Enter your phone number:</label><br>
-            <input type="text" id="phone" name="phone" value="Phone number"><br>
-            </span>
-            <label for="form-msg">Write your message:</label><br>
-            <textarea name="message" id="form-msg" cols="30" rows="10">Write your message:</textarea><br>
-            <input type="submit" id="submit" value="Submit">
-       </form>
+    <div>
+        <h2>Thank you for your message, I will give you an answer as soonn as possible.</h2>
     </div>
 </main>
  <!--END MAIN-->
