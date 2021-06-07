@@ -1,17 +1,37 @@
-const quote = document.getElementById('quote');
+const quote = document.getElementById("quote");
+const theme = document.querySelectorAll(".color-box");
+
+theme.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    console.log(event.target.id);
+    document.body.classList.remove("salmonTheme", "yellowTheme", "blueTheme");
+    switch (event.target.id) {
+      case "salmon":
+        document.body.classList.add("salmonTheme");
+        break;
+      case "yellow":
+        document.body.classList.add("yellowTheme");
+        break;
+      case "blue":
+        document.body.classList.add("blueTheme");
+        break;
+      case "normal":
+        document.body.classList.add("normalTheme");
+        break;
+      default:
+        null;
+    }
+  });
+});
 
 const getQuote = () => {
-fetch("https://api.quotable.io/random") 
-/*API from Luke Peavey : https://github.com/lukePeavey/quotable*/
-  .then((response) => response.json())
-  .then((data) => {
+  fetch("https://api.quotable.io/random")
+    /*API from Luke Peavey : https://github.com/lukePeavey/quotable*/
+    .then((response) => response.json())
+    .then((data) => {
       quote.innerHTML = data.content + " " + data.author;
-  });
-  fetch('https://picsum.photos/1600/1000')
-  .then((response) => {
-      document.getElementById('pic').innerHTML = `<img src=${response.url} />`
-  })
+    });
 };
 
-quote.addEventListener('click', () => getQuote());
+quote.addEventListener("click", () => getQuote());
 getQuote();

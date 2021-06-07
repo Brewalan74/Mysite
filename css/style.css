@@ -257,6 +257,7 @@ h6 p {
 }
 h5 {
   color: #0b0b10;
+  margin-top: 2px;
   margin-bottom: 2px;
 }
 .para-right {
@@ -372,6 +373,53 @@ p a:hover {
   color: #c4c3b0;
 }
 
+.color-box {
+  border: 1px;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+#salmon {
+  background: salmon;
+}
+#salmon:hover {
+  box-shadow: 5px 5px 5px red;
+}
+.salmonTheme {
+  background-color: salmon;
+  color: white;
+}
+#yellow {
+  background: yellow;
+  color: #0b0b10;
+}
+#yellow:hover {
+  box-shadow: 5px 5px 5px orange;
+}
+.yellowTheme {
+  background-color: yellow;
+}
+#blue {
+  background: blue;
+}
+#blue:hover {
+  box-shadow: 5px 5px 5px darkblue;
+}
+.blueTheme {
+  background-color: blue;
+}
+#normal {
+  background: #c4c3b0;
+  color: #0b0b10;
+}
+#normal:hover {
+  box-shadow: 5px 5px 5px #606260;
+}
+.normalTheme {
+  background-color: #c4c3b0;
+}
 /* END OTHER MAIN */
 
 /* LARGE SCREEN */
